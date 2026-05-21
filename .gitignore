@@ -1,0 +1,9 @@
+# Hub-репозиторій: тут лише спільна документація.
+# Код кожної частини системи — у власному репозиторії (див. README.md).
+bptracker-backend/
+bptracker-frontend/
+aivm-photo-api/
+bp-ocr-cnn/
+
+# Локальні налаштування Claude Code
+.claude/
