@@ -8,7 +8,7 @@
 |---|---|---|---|
 | frontend | bptracker-frontend | GitHub Pages | GitHub Actions, авто при push у `main` |
 | backend | bptracker-backend | `treehouse.lan`, Docker | вручну: `docker compose up --build -d` |
-| aivm-photo-api | aivm-photo-api | `treehouse.lan`, Docker | вручну: `docker compose up --build -d` |
+| aivm-photo-api | aivm-photo-api | `treehouse.lan`, Docker | 🛑 **ЗУПИНЕНО** (архів) |
 | bp-ocr-cnn | bp-ocr-cnn | — | не деплоїться (локальне тренування моделі) |
 
 ## Інфраструктура
@@ -33,6 +33,7 @@
 | `bptracker-seq` | datalust/seq | 5341 → 80 | Логи (Seq), локально |
 
 ### photo-api — `aivm-photo-api/docker-compose.yml`
+> **Статус:** Наразі стек `photo-api` вимкнено на постійній основі, оскільки модель CNN вже натренована. У налаштуваннях самого застосунку відправку фото на цей API доцільно вимкнути.
 
 | Контейнер | Образ | Порт | Призначення |
 |---|---|---|---|
