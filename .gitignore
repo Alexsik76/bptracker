@@ -7,3 +7,8 @@ bp-ocr-cnn/
 
 # Локальні налаштування Claude Code
 .claude/
+
+# Security audit working document
+docs/
+
+
