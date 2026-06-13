@@ -4,7 +4,8 @@ bptracker-backend/
 bptracker-frontend/
 aivm-photo-api/
 bp-ocr-cnn/
-
+secrets/
+mobile_app/
 # Локальні налаштування Claude Code
 .claude/
 
@@ -12,3 +13,4 @@ bp-ocr-cnn/
 docs/
 
 
+.aider*
